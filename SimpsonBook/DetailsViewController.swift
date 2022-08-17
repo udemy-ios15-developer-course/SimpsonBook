@@ -18,7 +18,7 @@ class DetailsViewController: UIViewController {
         super.viewDidLoad()
 
         characterImage.image = UIImage(named: character!.image)
-        navigationController?.title = character!.title
+        navigationItem.title = character!.title
         roleLabel.text = character!.role
     }
 }

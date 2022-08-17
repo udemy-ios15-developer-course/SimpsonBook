@@ -52,9 +52,8 @@
                                 <rect key="frame" x="20" y="137" width="374" height="725"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Role" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cpa-pS-rnB">
-                                <rect key="frame" x="20" y="108" width="374" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Role" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cpa-pS-rnB">
+                                <rect key="frame" x="0.0" y="108" width="414" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -62,6 +61,11 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="5d5-We-Zyl"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Cpa-pS-rnB" firstAttribute="leading" secondItem="5d5-We-Zyl" secondAttribute="leading" id="N2P-em-yhj"/>
+                            <constraint firstItem="Cpa-pS-rnB" firstAttribute="top" secondItem="5d5-We-Zyl" secondAttribute="top" constant="20" id="YYx-5Z-TFv"/>
+                            <constraint firstItem="Cpa-pS-rnB" firstAttribute="trailing" secondItem="5d5-We-Zyl" secondAttribute="trailing" id="kmY-rk-CG0"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="UTd-BQ-20K"/>
                     <connections>
