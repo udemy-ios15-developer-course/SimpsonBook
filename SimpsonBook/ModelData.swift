@@ -8,7 +8,7 @@
 import Foundation
 
 final class ModelData {
-    var characters = [Characters]()
+    var characters = [Character]()
     
     func loadCharacters() {
         let data: Data
@@ -26,14 +26,15 @@ final class ModelData {
                        
         do {
             let decoder = JSONDecoder()
-            characters = try decoder.decode([Characters].self, from: data)
+            characters = try decoder.decode([Character].self, from: data)
         } catch {
-            fatalError("Couldn't parse SimpsonData as \([Characters].self)\n\(error)")
+            fatalError("Couldn't parse SimpsonData as \([Character].self)\n\(error)")
         }
     }
 }
 
-struct Characters : Decodable {
+struct Character : Decodable {
     var imageName: String
     var imageTitle: String
+    var role: String
 }

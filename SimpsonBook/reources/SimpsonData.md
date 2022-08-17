@@ -1,22 +1,27 @@
 [
     {
         "image": "homer",
-        "title": "Homer Simpson"
+        "title": "Homer Simpson",
+        "role": "Nuclear Power Plant Manager"
     },
     {
         "image": "marge",
-        "title": "Marge Simpson"
+        "title": "Marge Simpson",
+        "role": "Home maker"
     },
     {
         "image": "bart",
-        "title": "Bart Simpson"
+        "title": "Bart Simpson",
+        "role": "Trouble maker"
     },
     {
         "image": "lisa",
-        "title": "Lisa Simpson"
+        "title": "Lisa Simpson",
+        "role": "Next world leader"
     },
     {
         "image": "maggie",
-        "title": "Maggie Simpson"
+        "title": "Maggie Simpson",
+        "role": "The Baby"
     },
 ]
