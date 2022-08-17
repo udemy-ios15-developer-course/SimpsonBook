@@ -34,7 +34,7 @@ final class ModelData {
 }
 
 struct Character : Decodable {
-    var imageName: String
-    var imageTitle: String
+    var image: String
+    var title: String
     var role: String
 }

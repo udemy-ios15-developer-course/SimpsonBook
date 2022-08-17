@@ -15,6 +15,7 @@
 		E6C053F728ACB4AA00819A2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6C053F528ACB4AA00819A2D /* LaunchScreen.storyboard */; };
 		E6C0540128ACB70800819A2D /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C0540028ACB70800819A2D /* ModelData.swift */; };
 		E6C0540328ACB9C300819A2D /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C0540228ACB9C300819A2D /* DetailsViewController.swift */; };
+		E6C0540428ACBF7000819A2D /* SimpsonData in Resources */ = {isa = PBXBuildFile; fileRef = E6C053FF28ACB66100819A2D /* SimpsonData */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,7 +27,7 @@
 		E6C053F328ACB4AA00819A2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E6C053F628ACB4AA00819A2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E6C053F828ACB4AA00819A2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E6C053FF28ACB66100819A2D /* SimpsonData.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = SimpsonData.md; sourceTree = "<group>"; };
+		E6C053FF28ACB66100819A2D /* SimpsonData */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SimpsonData; sourceTree = "<group>"; };
 		E6C0540028ACB70800819A2D /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		E6C0540228ACB9C300819A2D /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,7 +79,7 @@
 		E6C053FE28ACB63400819A2D /* reources */ = {
 			isa = PBXGroup;
 			children = (
-				E6C053FF28ACB66100819A2D /* SimpsonData.md */,
+				E6C053FF28ACB66100819A2D /* SimpsonData */,
 			);
 			path = reources;
 			sourceTree = "<group>";
@@ -143,6 +144,7 @@
 			files = (
 				E6C053F728ACB4AA00819A2D /* LaunchScreen.storyboard in Resources */,
 				E6C053F428ACB4AA00819A2D /* Assets.xcassets in Resources */,
+				E6C0540428ACBF7000819A2D /* SimpsonData in Resources */,
 				E6C053F228ACB4A600819A2D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

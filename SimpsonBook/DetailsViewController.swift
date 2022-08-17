@@ -17,8 +17,8 @@ class DetailsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        characterImage.image = UIImage(named: character!.imageName)
-        navigationController?.title = character!.imageTitle
+        characterImage.image = UIImage(named: character!.image)
+        navigationController?.title = character!.title
         roleLabel.text = character!.role
     }
 }

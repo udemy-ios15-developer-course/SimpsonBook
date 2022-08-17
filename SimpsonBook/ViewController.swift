@@ -9,15 +9,16 @@ import UIKit
 
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
+    var characters : [Character]?
     @IBOutlet weak var characterList: UITableView!
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+        return characters!.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = UITableViewCell()
-        cell.textLabel!.text = "foo"
+        cell.textLabel!.text = characters![indexPath.row].title
         return cell
     }
     
@@ -25,6 +26,9 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         super.viewDidLoad()
         characterList.dataSource = self
         characterList.delegate = self
+        let modelData = ModelData()
+        modelData.loadCharacters()
+        characters = modelData.characters
     }
 }
 
